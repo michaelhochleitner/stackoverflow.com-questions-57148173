@@ -14,6 +14,7 @@ with open('doesntwork.txt', 'r') as file:
 def categorize_words():
     print(pos_tag((tokens)))
 output = categorize_words()
-file = open("wordsfromdoesntwork.txt", "w")
-file.write(str(output))
-file.close()
+#following lines don't work for me thus I commented them out to avoid confusion
+#file = open("wordsfromdoesntwork.txt", "w")
+#file.write(str(output))
+#file.close()
